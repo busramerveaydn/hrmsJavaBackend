@@ -37,7 +37,7 @@ public class JobAdvertisementManager implements JobAdvertisementService{
 	}
 
 	@Override
-	public DataResult<List<JobAdvertisement>> getByıIsActiveTrue() {
+	public DataResult<List<JobAdvertisement>> getByIsActiveTrue() {
 		return new SuccessDataResult<List<JobAdvertisement>>(this.jobAdvertisementDao.getByisActiveTrue());
 	}
 
